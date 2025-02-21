@@ -6,7 +6,8 @@ function LoginPage() {
 
   const handleLogin = (event) => {
     event.preventDefault();
-    alert('Logged in as: ${username}');
+    let username = "sagarwal"; // Example of a valid assignment
+    alert(`Logged in as: ${username}`);
   };
 
   return (
