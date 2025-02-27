@@ -1,0 +1,56 @@
+.course-schedule-container {
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .schedule-title {
+    color: #1a5276;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-divider {
+    border-bottom: 2px dotted #000;
+    margin-bottom: 20px;
+  }
+  
+  .schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #e6e6e6;
+  }
+  
+  .schedule-table th, .schedule-table td {
+    border: 1px solid #e6e6e6;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .empty-cell {
+    border-right: 1px solid #e6e6e6;
+  }
+  
+  .days-row th {
+    font-weight: bold;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  
+  .time-cell {
+    text-align: right;
+    color: #666;
+    font-size: 14px;
+    padding-right: 10px;
+  }
+  
+  /* For responsive design */
+  @media (max-width: 768px) {
+    .schedule-table {
+      font-size: 12px;
+    }
+    
+    .time-cell {
+      font-size: 12px;
+    }
+  }

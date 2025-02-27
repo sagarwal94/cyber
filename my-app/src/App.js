@@ -1,11 +1,14 @@
-import React from "react";
-import LoginPage from "./LoginPage"; // Import the Login Page
+import React from 'react';
+import AttendancePage from './AttendancePage';
+import GradesTable from './GradesTable';
+import CourseSchedule from './CourseSchedule';
+import './App.css';
+import './AttendancePage.css';
 
 function App() {
   return (
-    <div>
-      <h1>Bay Atlantic University</h1>
-      <LoginPage />  {/* Render the Login Page */}
+    <div className="app">
+      <AttendancePage/>
     </div>
   );
 }

@@ -1,0 +1,87 @@
+.attendance-container {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .attendance-container h2 {
+    color: #192f5d;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .attendance-filters {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+  }
+  
+  .filter-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .filter-group label {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .month-select,
+  .year-select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    min-width: 120px;
+  }
+  
+  .attendance-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .course-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .course-header {
+    padding: 1rem;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .course-date {
+    color: #666;
+  }
+  
+  .show-button {
+    background-color: #192f5d;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .show-button:hover {
+    background-color: #0d1b36;
+  }
+  
+  .course-details {
+    padding: 1rem;
+    border-top: 1px solid #e0e0e0;
+    display: none;
+  }
+  
+  .course-details.visible {
+    display: block;
+  }
